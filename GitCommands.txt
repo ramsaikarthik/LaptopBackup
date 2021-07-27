@@ -7,6 +7,7 @@ git checkout <branchName> (selects the current branch)
 git add -A (adds all the files and directories in the existing folder)
 git add <File/FolderName> (adds only the specific file or folderName)
 git commit -m "Add required comments" (the selected files will be committed)
+git reset --hard HEAD~1 (resets the commit changes)
 git merge master (merge current branch content with local master)
 git checkout master
 git push origin master (pushes all the changes from master branch to remote GIT repository)
